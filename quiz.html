@@ -22,46 +22,58 @@
         <li class="list-item-inline">
           <a class="link" href="/area.html">Area</a>
         </li>
+
+        <li class="list-item-inline">
+          <a class="link index-link" href="/">🔙</a>
+        </li>
       </ul>
     </nav>
 
-    <div class="container">
-      <h1>Triangle Quiz</h1>
-      <form class="quiz-form">
-        <div class="question-container">
-          <p>
-            What is the third angle for the triangle where angle-1 = 30° and
-            angle-2 = 45°
-          </p>
-          <label><input type="radio" name="question1" value="90°" />90°</label>
-          <label
-            ><input type="radio" name="question1" value="105°" />105°</label
-          >
-          <label
-            ><input type="radio" name="question1" value="115°" />115°</label
-          >
-        </div>
+    <div class="main-container">
+      <div class="container">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+          <div class="question-container">
+            <p>
+              What is the third angle for the triangle where angle-1 = 30° and
+              angle-2 = 45°
+            </p>
+            <label
+              ><input type="radio" name="question1" value="90°" />90°</label
+            >
+            <label
+              ><input type="radio" name="question1" value="105°" />105°</label
+            >
+            <label
+              ><input type="radio" name="question1" value="115°" />115°</label
+            >
+          </div>
 
-        <div class="question-container">
-          <p>If a trinagle has an angle of 90°, then what is it called ?</p>
-          <label
-            ><input type="radio" name="question2" value="obtuse" />obtuse</label
-          >
-          <label
-            ><input type="radio" name="question2" value="acute" />acute</label
-          >
-          <label
-            ><input
-              type="radio"
-              name="question2"
-              value="right-angled"
-            />right-angled</label
-          >
-        </div>
-      </form>
+          <div class="question-container">
+            <p>If a trinagle has an angle of 90°, then what is it called ?</p>
+            <label
+              ><input
+                type="radio"
+                name="question2"
+                value="obtuse"
+              />obtuse</label
+            >
+            <label
+              ><input type="radio" name="question2" value="acute" />acute</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="question2"
+                value="right-angled"
+              />right-angled</label
+            >
+          </div>
+        </form>
 
-      <button id="answer-btn">Submit Answers</button>
-      <div id="output"></div>
+        <button id="answer-btn">Submit Answers</button>
+        <div id="output"></div>
+      </div>
     </div>
 
     <footer class="footer">
