@@ -8,29 +8,40 @@
     <link rel="stylesheet" href="/index.css" />
   </head>
   <body>
-    <nav class="navigation-container">
-      <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline">
-          <a class="link" href="/isTriangle.html">Is Triangle??</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/quiz.html">Quiz</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/hypotenuse.html">Hypoteuse</a>
-        </li>
-        <li class="list-item-inline">
-          <a class="link" href="/area.html">Area</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="navigation-container">
+        <div class="img-container">
+          <a class="link index-link" href="/"
+            ><img src="/media/icons8-triangle-100.png" alt=""
+          /></a>
+        </div>
+  
+        <nav>
+          <ul class="list-non-bullet ">
+            <div class="list-container">
+              <li class="list-item-inline">
+                <a class="link" href="/isTriangle.html">Is Triangle??</a>
+              </li>
+              <li class="list-item-inline">
+                <a class="link" href="/quiz.html">Quiz</a>
+              </li>
+              <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Hypoteuse</a>
+              </li>
+              <li class="list-item-inline">
+                <a class="link" href="/area.html">Area</a>
+              </li>
+            </div>
+          </ul>
+        </nav>
+      </div>
+  
 
     <div class="main-container">
       <div class="container">
         <h1 class="welcome-head">Welcome</h1>
         <div class="triangle-container">
           <svg height="250" width="250">
-            <polygon points="125,30 50,200 200,200" class="triangle" />
+            <polygon points="125,30 50,200 200,200" class="triangle" style="margin: auto;"/>
             Sorry, your browser does not support inline SVG.
           </svg>
         </div>
