@@ -1,5 +1,5 @@
 const sideInputs = document.querySelectorAll(".side-input");
-const calculateAreaBtn = document.querySelector("#calculate-area-btn");
+const calculateAreaBtn = document.querySelector("#answer-btn");
 const outputEl = document.querySelector("#output");
 
 
